@@ -21,7 +21,9 @@ Put the output in the `PUBLIC_FIREBASE_CONFIG` variable in `.env`.
 
 ### If you want to use emulator
 
-If you want to run the emulator, set `PUBLIC_FIREBASE_USE_EMULATOR` to `true`.
+
+
+If you want to run [the emulator](https://firebase.google.com/docs/emulator-suite), set `PUBLIC_FIREBASE_USE_EMULATOR` to `true`.
 
 The `FIRESTORE_EMULATOR_HOST` variable is automatically read by `firebase-admin`. I don't use it here yet, but for it to work if added, it needs this variable.
 
