@@ -1,0 +1,1 @@
+<h1>Firebase in SvelteKit</h1>
