@@ -65,7 +65,7 @@ pnpm run dev
 
 ## Stuff
 
-Some code borrowed from [SvelteFireTS](https://github.com/jacob-8/sveltefirets).
+Some code borrowed from [SvelteFireTS](https://github.com/jacob-8/sveltefirets). Use that library if you want something that is working already.
 
 ## Todo
 
