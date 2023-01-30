@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "using-firebase-with-sveltekit",
+    "location": "eur3"
+  }
+}

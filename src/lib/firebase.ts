@@ -68,5 +68,5 @@ export function docRef<T>(ref: DocPredicate<T>): DocumentReference<T> {
 
 export async function getDocument<T>(ref: DocPredicate<T>): Promise<T> {
   const docSnap = await getDoc(docRef(ref));
-  return docSnap.exists() ? { ...(docSnap.data() as T), id: docSnap.id } : null;
+  return docSnap.exists() ? { ...(docSnap.data() as T), id: docSnap.id } : null as T;
 }
